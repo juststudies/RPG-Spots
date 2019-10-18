@@ -1,0 +1,18 @@
+{
+  "name": "rpg-encontrao",
+  "version": "1.0.0",
+  "description": "Serviço de encontro de mestres e players ",
+  "author": "Nicolas Codonho Scorpelini",
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "helmet": "^3.21.1",
+    "mongoose": "^5.7.4",
+    "multer": "^1.4.2"
+  }
+}
